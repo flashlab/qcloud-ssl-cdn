@@ -20,8 +20,8 @@ jobs:
 
       - name: Update Cert
         env:
-          Ali_Key: ${{ secrets.Ali_Key }}
-          Ali_Secret: ${{ secrets.Ali_Secret }}
+          Ali_Key: ${{ secrets.ALI_KEY }}
+          Ali_Secret: ${{ secrets.ALI_SECRET }}
           ACME_DNS_TYPE: ${{ secrets.ACME_DNS_TYPE }}
           ACME_DOMAIN: ${{ secrets.ACME_DOMAIN }}
           SECRETID: ${{ secrets.SECRETID }}
